@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "description": "\"My personal website\"",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "xo",
+    "precommit": "npm run test"
+  },
+  "dependencies": {
+    "next": "^1.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-syntax-highlighter": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-xo-react": "^0.10.0",
+    "eslint-plugin-react": "^6.10.0",
+    "xo": "^0.17.1"
+  }
+}
