@@ -1,9 +1,9 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "description": "\"My personal website\"",
-  "main": "index.js",
+  "description": "my personal website",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
