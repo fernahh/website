@@ -5,4 +5,4 @@ const colors = {
   linkHover: '#0047aa'
 }
 
-export { colors }
+export default colors

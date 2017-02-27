@@ -21,5 +21,13 @@
     "eslint-config-xo-react": "^0.10.0",
     "eslint-plugin-react": "^6.10.0",
     "xo": "^0.17.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "object-curly-spacing": 0,
+      "no-unused-vars": 0
+    }
   }
 }

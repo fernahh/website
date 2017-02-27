@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import navigationLinks from '../data/navigationLinks'
+import navigationLinks from '../data/navigation-links'
 
 export default () => (
   <nav>
