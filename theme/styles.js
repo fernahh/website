@@ -1,8 +1,10 @@
 const colors = {
   adjacent: '#44484a',
-  white: '#ffffff',
+  black: '#000000',
+  grey: '#aaaaaa',
   link: '#4492ff',
-  linkHover: '#0047aa'
+  linkHover: '#0047aa',
+  white: '#ffffff'
 }
 
 export default colors

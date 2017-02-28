@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import navigationLinks from '../data/navigation-links'
+import colors from '../theme/styles'
 
 export default () => (
   <nav>
@@ -8,7 +9,7 @@ export default () => (
         navigationLinks.map(link => (
           <li>
             <Link href={link.href}>
-              <a title="some title">{link.name}</a>
+              <a title={link.title}>{link.name}</a>
             </Link>
           </li>
         ))
@@ -48,7 +49,7 @@ export default () => (
       ul li a {
         position: relative;
         z-index: 10;
-        color: #aaaaaa;
+        color: ${colors.grey};
         font-size: .9em;
         letter-spacing: -1px;
         line-height: 2em;
@@ -59,7 +60,7 @@ export default () => (
         ul li a:hover,
         ul li a:active,
         ul li a:focus {
-          color: #000000;
+          color: ${colors.black};
         }
     `}</style>
   </nav>

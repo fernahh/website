@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Navigation from './navigation'
+import colors from '../theme/styles'
 
 export default () => (
   <header>
@@ -38,19 +39,19 @@ export default () => (
       }
 
       h1 a {
-        color: #44484a;
+        color: ${colors.adjacent};
         border-color: transparent;
       }
 
       h1 a:hover {
-        color: #000000;
+        color: ${colors.black};
       }
 
       h2 {
         margin-top: 0;
         font-size: .9em;
         font-weight: normal;
-        color: #aaaaaa;
+        color: ${colors.grey};
       }
     `}</style>
   </header>
