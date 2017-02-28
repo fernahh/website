@@ -46,14 +46,14 @@ export default () => (
       }
 
       ul li a {
-          position: relative;
-          z-index: 10;
-          color: #aaaaaa;
-          font-size: .9em;
-          letter-spacing: -1px;
-          line-height: 2em;
-          text-transform: lowercase;
-          border: 0
+        position: relative;
+        z-index: 10;
+        color: #aaaaaa;
+        font-size: .9em;
+        letter-spacing: -1px;
+        line-height: 2em;
+        text-transform: lowercase;
+        border: 0
       }
 
         ul li a:hover,

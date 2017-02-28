@@ -15,16 +15,6 @@ export default ({ children }) => (
 
     { children }
 
-    <style jsx>{`
-      .Container {
-        max-width: 720px;
-        margin: 0 auto;
-        padding-left: 1em;
-        padding-right: 1em;
-        overflow: hidden;
-      }
-    `}</style>
-
     <style jsx global>{`
       *, *:after, *:before {
         box-sizing: border-box;
@@ -32,7 +22,6 @@ export default ({ children }) => (
 
       body {
         background-color: ${colors.white};
-
         color: ${colors.adjacent};
         font-family: 'Open Sans', sans-serif;
         font-size: 1em;
@@ -42,16 +31,23 @@ export default ({ children }) => (
       a {
         color: ${colors.link};
         text-decoration: none;
-
         border-bottom: 1px dashed ${colors.link};
-
         transition: all 200ms ease-in-out;
       }
 
       a:hover {
         color: ${colors.linkHover};
-
         border-bottom-color: ${colors.linkHover};
+      }
+    `}</style>
+
+    <style jsx>{`
+      .Container {
+        max-width: 720px;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        overflow: hidden;
       }
     `}</style>
   </div>
