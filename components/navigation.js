@@ -7,7 +7,7 @@ export default () => (
     <ul>
       {
         navigationLinks.map(link => (
-          <li>
+          <li key={link.id}>
             <Link href={link.href}>
               <a title={link.title}>{link.name}</a>
             </Link>
