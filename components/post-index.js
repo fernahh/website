@@ -37,11 +37,11 @@ const PostIndex = ({ post }) => (
         border: 0;
       }
 
-      a:hover,
-      a:active,
-      a:focus {
-        color: ${colors.black};
-      }
+        a:hover,
+        a:active,
+        a:focus {
+          color: ${colors.black};
+        }
     `}</style>
   </li>
 )

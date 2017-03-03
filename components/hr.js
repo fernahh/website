@@ -10,10 +10,8 @@ export default () => (
         height: 1px;
         margin-top: 1em;
         margin-bottom: 1em;
-
         background-color: ${colors.greyLight};
         border: 0;
-
         clear: both;
       }
 

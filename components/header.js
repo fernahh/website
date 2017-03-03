@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Navigation from './navigation'
 import colors from '../theme/styles'
+import Navigation from './navigation'
 
 export default () => (
   <header>
@@ -28,13 +28,13 @@ export default () => (
         text-align: center;
       }
 
-      @media screen and (min-width: 768px) {
-        header > div {
-          float: left;
-          width: 40%;
-          text-align: left;
+        @media screen and (min-width: 768px) {
+          header > div {
+            float: left;
+            width: 40%;
+            text-align: left;
+          }
         }
-      }
 
       h1 {
         margin-top: 0;
@@ -43,20 +43,20 @@ export default () => (
         font-weight: normal;
       }
 
-      h1 a {
+      a {
         color: ${colors.adjacent};
-        border-color: transparent;
+        border: 0;
       }
 
-      h1 a:hover {
-        color: ${colors.black};
-      }
+        a:hover {
+          color: ${colors.black};
+        }
 
       h2 {
         margin-top: 0;
+        color: ${colors.grey};
         font-size: .9em;
         font-weight: normal;
-        color: ${colors.grey};
       }
     `}</style>
   </header>
