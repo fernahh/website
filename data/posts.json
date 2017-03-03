@@ -1,0 +1,13 @@
+[
+  {
+    "id": "acessando-propriedades-de-objetos-javascript",
+    "title": "Acessando propriedades de objetos JavaScript",
+    "date": "22/02/2017",
+    "description": "Como garantir que uma propriedade de um objeto estará definida quando você precisar dela? Esse artigo mostra as várias formas de fazer isso, através condicionais, bibliotecas e conceitos de programação funcional."
+  }, {
+    "id": "estado-em-componentes-web",
+    "title": "Estado em componentes web",
+    "date": "16/03/2017",
+    "description": "Antes de querer frameworks como React e Angular2, você precisa aprender sobre estado de componentes. Esse artigo busca mostrar a evolução desse paradigma e mostrando o que são stateful e stateless components."
+  }
+]
