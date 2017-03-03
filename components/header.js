@@ -4,7 +4,7 @@ import colors from '../theme/styles'
 
 export default () => (
   <header>
-    <div className="Header_Title">
+    <div>
       <h1>
         <Link href="/">
           <a title="fernahh.com.br">
@@ -18,13 +18,18 @@ export default () => (
     <Navigation />
 
     <style jsx>{`
-      .Header_Title {
+      header {
+        overflow: hidden;
+        margin-bottom: 4em;
+      }
+
+      header > div {
         margin-top: 1em;
         text-align: center;
       }
 
       @media screen and (min-width: 768px) {
-        .Header_Title {
+        header > div {
           float: left;
           width: 40%;
           text-align: left;
