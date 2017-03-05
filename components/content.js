@@ -1,21 +1,21 @@
 import Link from 'next/link'
 import colors from '../theme/styles'
-import HR from './hr'
+import Hr from './hr'
 import Time from './time'
 
-const PostIndex = ({ post }) => (
+const Content = ({ content }) => (
   <li>
-    <Time date={post.date}/>
+    <Time date={content.date}/>
 
     <h2>
-      <Link href={post.path} as={post.id} prefetch>
-        <a>{post.title}</a>
+      <Link href={content.path} as={content.id} prefetch>
+        <a>{content.title}</a>
       </Link>
     </h2>
 
-    <p>{post.description}</p>
+    <p>{content.description}</p>
 
-    <HR />
+    <Hr />
 
     <style jsx>{`
       li {
@@ -46,4 +46,4 @@ const PostIndex = ({ post }) => (
   </li>
 )
 
-export default PostIndex
+export default Content
