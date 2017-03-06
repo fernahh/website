@@ -2,13 +2,11 @@ import colors from '../theme/styles'
 
 export default ({ date, local, event }) => (
   <h3>
-    <time datetime={date}>
+    <time dateTime={date}>
       Publicado em: {date}
     </time>
     {
-      (local && event)
-      ? <span>| {local} | {event}</span>
-      : ''
+      (local && event) ? <span>| {local} | {event}</span> : ''
     }
 
     <style jsx>{`
