@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Layout from '../layouts/layout'
+import Content from '../components/content'
 import posts from '../data/posts'
 import colors from '../theme/styles'
-import PostIndex from '../components/post-index'
 
 const getPosts = () => posts.map(post => Object.assign({
-  path: `/posts/${post.id}`
+  path: `/posts/${post.slug}`
 }, post))
 
 export default () => (
@@ -13,8 +13,8 @@ export default () => (
     <ul>
       {
         getPosts().map(post => (
-          <div>
-            <PostIndex key={post.id} post={post}/>
+          <div key={post.id}>
+            <Content content={post}/>
           </div>
         ))
       }
