@@ -1,15 +1,19 @@
-import Link from 'next/link'
 import colors from '../theme/styles'
 import Hr from './hr'
-import Time from './time'
+import Link from './link'
+import Occurrence from './occurrence'
 
 const Content = ({ content }) => (
   <li>
-    <Time date={content.date}/>
+    <Occurrence
+      date={content.date}
+      local={content.local}
+      event={content.event}
+    />
 
     <h2>
-      <Link href={content.path} as={content.id} prefetch>
-        <a>{content.title}</a>
+      <Link href={content.path} slug={content.slug}>
+        {content.title}
       </Link>
     </h2>
 
