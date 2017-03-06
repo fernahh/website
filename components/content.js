@@ -1,6 +1,6 @@
 import colors from '../theme/styles'
 import Hr from './hr'
-import Link from './link'
+import ContentLink from './content-link'
 import Occurrence from './occurrence'
 
 const Content = ({ content }) => (
@@ -12,9 +12,9 @@ const Content = ({ content }) => (
     />
 
     <h2>
-      <Link href={content.path} slug={content.slug}>
+      <ContentLink href={content.path} slug={content.slug}>
         {content.title}
-      </Link>
+      </ContentLink>
     </h2>
 
     <p>{content.description}</p>

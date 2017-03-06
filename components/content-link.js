@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import colors from '../theme/styles'
 
-const isInternalLink = link => /^[a-z][a-z0-9+.-]*:/.test(link)
+const isPost = link => link.includes('post')
 
 export default ({ href, children, slug}) => (
   <span>
     {
-      isInternalLink(href) ?
-        <a href={href} target="_blank"> {children} </a> :
-        <Link href={href} as={slug} prefetch><a>{ children }</a></Link>
+      isPost(href) ?
+        <Link href={href} as={slug} prefetch><a>{ children }</a></Link> :
+        <a href={href} target="_blank">{ children }</a>
     }
     <style jsx>{`
       a {
