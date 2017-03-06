@@ -1,0 +1,51 @@
+[
+  {
+    "id": 6,
+    "title": "CSS: Computer Style Science",
+    "event": "FrontinFloripa",
+    "local": "Florianópolis, SC",
+    "date": "27/11/2016",
+    "path": "https://speakerdeck.com/fernahh/css-computer-style-science-at-number-frontinfloripa2016",
+    "description": "Entre o surgimento da primeira linguagem de programação e o CSS existem quase quatro décadas de diferença. Nesse tempo surgiram diversos conceitos, como a programação funcional, imperativa e orientada a objetos. Nessa palestra mostro como podemos aplicar os principais paradigmas da ciência da computação e o como eles podem nos auxiliar na hora de escrevermos CSS."
+  }, {
+    "id": 5,
+    "title": "Componentes CSS: como desenvolver pensando em reuso v1.5",
+    "event": "SCDevSummit",
+    "local": "Joinville, SC",
+    "date": "21/05/2016",
+    "path": "https://speakerdeck.com/fernahh/componentes-css-como-desenvolver-pensando-em-reuso-v1-dot-5-at-number-scdevsummit2016",
+    "description": "Um dos principais pilares para a web emplacar como uma plataforma para se construir aplicações robustas foi o CSS. Porém, cada vez mais precisamos de aplicações dinâmicas e modularizadas. E como criar componentes encapsulados em uma linguagem onde tudo é global? Nessa talk iremos ver paradigmas e aprender como desenvolver CSS escalável em tempos de módulos JavaScript, HTTP/2 e Web Components."
+  }, {
+    "id": 4,
+    "title": "JavaScript no Terminal",
+    "event": "RSJS",
+    "local": "Porto Alegre, RS",
+    "date": "23/04/2016",
+    "path": "https://speakerdeck.com/fernahh/javascript-no-terminal-at-number-rsjs2016",
+    "description": "Se o JavaScript está em todos os lugares, obviamente ele também está no terminal. Nessa talk vamos ver como desenvolver CLIs com JavaScript usando boas práticas, como módulos e testes que irão garantir a flexibilidade e manutenção de nossas ferramentas."
+  }, {
+    "id": 3,
+    "title": "Componentes CSS: como desenvolver pensando em reuso",
+    "event": "FrontinPOA",
+    "local": "Porto Alegre, RS",
+    "date": "05/12/2015",
+    "path": "https://speakerdeck.com/fernahh/componentes-css-como-desenvolver-pensando-em-reuso-at-number-frontinpoa2015",
+    "description": "Um dos principais pilares para a web emplacar como uma plataforma para se construir aplicações robustas foi o CSS. Porém, cada vez mais precisamos de aplicações dinâmicas e modularizadas. E como criar componentes encapsulados em uma linguagem onde tudo é global? Nessa talk iremos ver paradigmas e aprender como desenvolver CSS escalável em tempos de módulos JavaScript, HTTP/2 e Web Components."
+  }, {
+    "id": 2,
+    "title": "Don't Repeat Yourself, front-ender!",
+    "event": "TDCPoA",
+    "local": "Porto Alegre, RS",
+    "date": "26/09/2015",
+    "path": "https://speakerdeck.com/fernahh/dont-repeat-yourself-front-ender-at-number-tdcpoa2015",
+    "description": "A web é uma das principais plataformas de desenvolvimento de aplicações. Hoje (quase) tudo está conectado na internet. Apps cada vez mais dinâmicas aumentaram a complexidade do desenvolvimento de interfaces web. Em consequência desse crescimento, surgiram metodologias e ferramentas para repetir menos código, modularizar e criar componentes para a web. No passado trabalhamos com iframes e no futuro talvez teremos web components funcionando em todos os browsers. Mas e hoje, como podemos aplicar a filosofia DRY?"
+  }, {
+    "id": 1,
+    "title": "HTTP - Passado, presente e o futuro",
+    "event": "FISL16",
+    "local": "Porto Alegre, RS",
+    "date": "11/07/2015",
+    "path": "https://speakerdeck.com/fernahh/http-passado-presente-e-o-futuro-at-number-fisl16",
+    "description": "Talk sobre o principal protocolo da web, o HTTP. Um pouco sobre a sua história, como funciona e as novas features do HTTP/2. Foi apresentada no dia 11 de Julho, no FISL16."
+  }
+]
