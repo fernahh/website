@@ -12,7 +12,7 @@ const Content = ({ content }) => (
     />
 
     <h2>
-      <ContentLink href={content.path} slug={content.slug}>
+      <ContentLink href={content.path}>
         {content.title}
       </ContentLink>
     </h2>
