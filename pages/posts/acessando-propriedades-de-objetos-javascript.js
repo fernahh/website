@@ -1,10 +1,20 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import Layout from '../../layouts/layout'
 import Container from '../../components/container'
 import { Snippet, Code } from '../../components/highlight'
 
 export default () => (
   <Layout>
+    <Head>
+      <title>Acessando propriedades de objetos em JavaScript.</title>
+      <meta name="description"
+        content="Como garantir que uma propriedade de um objeto estará
+        definida quando você precisar dela? Esse artigo mostra as várias formas
+        de fazer isso, através condicionais, bibliotecas e conceitos de
+        programação funcional."
+      />
+    </Head>
     <Container>
       <p>
         O JavaScript, como várias linguagens, funciona com um único

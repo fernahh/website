@@ -1,9 +1,13 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import Article from '../layouts/article'
 import Heading from '../components/heading'
 
 export default () => (
   <Article>
+    <Head>
+      <title>Sobre | @fernahh</title>
+    </Head>
     <Heading>Sobre</Heading>
 
     <p>E aí, tudo certo?</p>

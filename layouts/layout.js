@@ -3,11 +3,12 @@ import colors from '../theme/styles'
 import Header from '../components/header'
 
 export default ({ children }) => (
-  <div className="Container">
+  <div>
     <Head>
-      <title>fernahh.com.br</title>
+      <title>@fernahh, desenvolvedor e de buenas na web</title>
       <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <meta name="description" content="Coisas que eu, @fernahh, quero que todos saibam." />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
         rel="stylesheet" type="text/css" />
     </Head>
@@ -43,7 +44,7 @@ export default ({ children }) => (
     `}</style>
 
     <style jsx>{`
-      .Container {
+      div {
         max-width: 720px;
         margin: auto;
         padding-left: 1em;
