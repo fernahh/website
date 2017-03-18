@@ -18,8 +18,7 @@ export default () => (
 
       <blockquote>
         Para saber mais sobre fluxo de execução em JavaScript,
-        sugiro que leia <Link href='https://tableless.com.br/fluxo-de-execucao-assincrono-em-javascript-callbacks/'>
-        <a>esse artigo do @jcemer no Tableless.</a></Link>
+        sugiro que leia <Link href="https://tableless.com.br/fluxo-de-execucao-assincrono-em-javascript-callbacks/"><a>esse artigo do @jcemer no Tableless.</a></Link>
       </blockquote>
 
       <p>
@@ -215,7 +214,7 @@ export default () => (
       <p>
         Essa explicação é extramamente básica. Sugiro que para se aprofundar no
         assunto, dê uma lida no artigo do
-        @sharifsbeat, <Link  href="https://medium.com/javascript-inside/an-introduction-into-lenses-in-javascript-e494948d1ea5"><a>A Introduction into Lenses
+        @sharifsbeat, <Link href="https://medium.com/javascript-inside/an-introduction-into-lenses-in-javascript-e494948d1ea5"><a>A Introduction into Lenses
           in JavaScript</a></Link> onde há outras links e referências.
       </p>
 
