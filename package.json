@@ -5,9 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "node server",
     "build": "next build",
-    "prestart": "next build",
+    "prestart": "npm run build",
     "start": "NODE_ENV=production node server",
     "test": "xo",
     "precommit": "npm run test"
