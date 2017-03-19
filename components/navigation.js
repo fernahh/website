@@ -53,6 +53,7 @@ export default () => (
         font-size: .9em;
         letter-spacing: -1px;
         line-height: 2em;
+        text-decoration: none;
         text-transform: lowercase;
         border: 0
       }

@@ -29,18 +29,6 @@ export default ({ children }) => (
         font-size: 1em;
         line-height: 1.8em;
       }
-
-      a {
-        color: ${colors.link};
-        text-decoration: none;
-        border-bottom: 1px dashed ${colors.link};
-        transition: all 200ms ease-in-out;
-      }
-
-      a:hover {
-        color: ${colors.linkHover};
-        border-bottom-color: ${colors.linkHover};
-      }
     `}</style>
 
     <style jsx>{`

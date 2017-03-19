@@ -46,6 +46,7 @@ export default () => (
       a {
         color: ${colors.adjacent};
         border: 0;
+        text-decoration: none;
       }
 
         a:hover {
