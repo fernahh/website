@@ -12,6 +12,7 @@ export default ({ href, children }) => (
     }
     <style jsx>{`
       a {
+        text-decoration: none;
         color: ${colors.adjacent};
         border: 0;
       }

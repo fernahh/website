@@ -1,9 +1,9 @@
 import colors from '../theme/styles'
 import Hr from './hr'
-import ContentLink from './content-link'
+import IndexContentLink from './index-content-link'
 import Occurrence from './occurrence'
 
-const Content = ({ content }) => (
+const IndexContent = ({ content }) => (
   <li>
     <Occurrence
       date={content.date}
@@ -12,9 +12,9 @@ const Content = ({ content }) => (
     />
 
     <h2>
-      <ContentLink href={content.path}>
+      <IndexContentLink href={content.path}>
         {content.title}
-      </ContentLink>
+      </IndexContentLink>
     </h2>
 
     <p>{content.description}</p>
@@ -35,19 +35,8 @@ const Content = ({ content }) => (
         letter-spacing: -1.79px;
         transition: all 200ms ease-in-out;
       }
-
-      a {
-        color: ${colors.adjacent};
-        border: 0;
-      }
-
-        a:hover,
-        a:active,
-        a:focus {
-          color: ${colors.black};
-        }
     `}</style>
   </li>
 )
 
-export default Content
+export default IndexContent
