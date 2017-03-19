@@ -5,11 +5,10 @@ import Content from '../components/index-content'
 import talks from '../data/talks'
 
 export default () => (
-  <Article>
+  <Article title="Talks">
     <Head>
       <title>Palestras | @fernahh</title>
     </Head>
-    <Heading>Talks</Heading>
 
     <ul>
       {
@@ -26,6 +25,7 @@ export default () => (
         display: block;
         max-width: 620px;
         margin: auto;
+        padding-left: 0;
         list-style-type: none;
       }
     `}</style>

@@ -4,11 +4,10 @@ import Heading from '../components/heading'
 import Link from '../components/link'
 
 export default () => (
-  <Article>
+  <Article title="Sobre">
     <Head>
       <title>Sobre | @fernahh</title>
     </Head>
-    <Heading>Sobre</Heading>
 
     <p>
       E aí, tudo certo?

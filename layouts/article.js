@@ -8,7 +8,11 @@ export default ({ title, date, children }) => (
     <Container>
       <article>
         <header>
-          <Occurrence date={date} />
+          {
+            date ?
+            <Occurrence date={date} /> :
+            ''
+          }
           <Heading>{title}</Heading>
         </header>
         <section>{ children }</section>
