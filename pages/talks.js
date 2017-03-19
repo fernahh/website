@@ -1,8 +1,7 @@
-import Link from 'next/link'
 import Head from 'next/head'
 import Article from '../layouts/article'
 import Heading from '../components/heading'
-import Content from '../components/content'
+import Content from '../components/index-content'
 import talks from '../data/talks'
 
 export default () => (

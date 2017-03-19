@@ -2,6 +2,7 @@ import colors from '../theme/styles'
 import Hr from './hr'
 import IndexContentLink from './index-content-link'
 import Occurrence from './occurrence'
+import Heading from './heading'
 
 const IndexContent = ({ content }) => (
   <li>
@@ -11,11 +12,11 @@ const IndexContent = ({ content }) => (
       event={content.event}
     />
 
-    <h2>
+    <Heading>
       <IndexContentLink href={content.path}>
         {content.title}
       </IndexContentLink>
-    </h2>
+    </Heading>
 
     <p>{content.description}</p>
 
@@ -24,16 +25,6 @@ const IndexContent = ({ content }) => (
     <style jsx>{`
       li {
         margin-bottom: 2em;
-      }
-
-      h2 {
-        margin-top: 0;
-        margin-bottom: 20px;
-        font-size: 2em;
-        font-weight: 600;
-        line-height: 1.2em;
-        letter-spacing: -1.79px;
-        transition: all 200ms ease-in-out;
       }
     `}</style>
   </li>

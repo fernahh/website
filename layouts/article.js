@@ -1,20 +1,18 @@
 import Layout from './layout'
+import Container from '../components/container'
+import Occurrence from '../components/occurrence'
+import Heading from '../components/heading'
 
-export default ({ children }) => (
+export default ({ title, date, children }) => (
   <Layout>
-    <article>
-      { children }
-
-      <style jsx>{`
-        article {
-          max-width: 640px;
-          margin: 0 auto;
-          margin-bottom: 4em;
-          padding-left: 10px;
-          padding-right: 10px;
-          overflow: hidden;
-        }
-      `}</style>
-    </article>
+    <Container>
+      <article>
+        <header>
+          <Occurrence date={date} />
+          <Heading>{title}</Heading>
+        </header>
+        <section>{ children }</section>
+      </article>
+    </Container>
   </Layout>
 )
