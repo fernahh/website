@@ -3,6 +3,7 @@ import Article from '../../layouts/article'
 import Link from '../../components/link'
 import P from '../../components/paragraph'
 import { Code } from '../../components/highlight'
+import Image from '../../components/image'
 
 export default () => (
   <Article title="ES2015 não é mais opcional" date="04/09/2016">
@@ -22,7 +23,7 @@ export default () => (
     </P>
 
     <P>
-      <img alt="Choice, foto do Michael Endy" src="https://cdn-images-1.medium.com/max/800/1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg" />
+      <Image alt="Choice, foto do Michael Endy" src="https://cdn-images-1.medium.com/max/800/1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg" />
     </P>
 
     <P>
