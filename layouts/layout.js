@@ -9,6 +9,8 @@ export default ({ children }) => (
       <meta charSet="utf-8" />
       <meta name="description" content="Coisas que eu, @fernahh, quero que todos saibam." />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"
+        rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
         rel="stylesheet" type="text/css" />
     </Head>
@@ -27,6 +29,10 @@ export default ({ children }) => (
         color: ${colors.adjacent};
         font-family: 'Open Sans', sans-serif;
         line-height: 1.8em;
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-weight: 600;
       }
     `}</style>
 
