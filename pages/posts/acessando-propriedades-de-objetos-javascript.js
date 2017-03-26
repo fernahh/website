@@ -6,7 +6,7 @@ import { Snippet, Code } from '../../components/highlight'
 export default () => (
   <Article title="Acessando propriedades de objetos JavaScript" date="22/02/2017">
     <Head>
-      <title>Acessando propriedades de objetos JavaScript.</title>
+      <title>Acessando propriedades de objetos JavaScript</title>
       <meta name="description"
         content="Como garantir que uma propriedade de um objeto estará
         definida quando você precisar dela? Esse artigo mostra as várias formas
@@ -77,7 +77,7 @@ export default () => (
   return obj.x?.y // undefined`}</Snippet>
 
     <p>
-      É bom lembrar que essa posta ainda está em
+      É bom lembrar que essa proposta ainda está em
       <Code>state 0</Code>, e não é recomendada para uso.
     </p>
 
