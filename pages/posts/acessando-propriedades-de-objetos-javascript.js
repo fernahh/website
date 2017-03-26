@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Article from '../../layouts/article'
 import Link from '../../components/link'
-import Blockquote from '../../components/blockquote'
 import { Snippet, Code } from '../../components/highlight'
 
 export default () => (
@@ -25,10 +24,10 @@ export default () => (
       layout.
     </p>
 
-    <Blockquote>
+    <p>
       Para saber mais sobre fluxo de execução em JavaScript,
       sugiro que leia <Link href="https://tableless.com.br/fluxo-de-execucao-assincrono-em-javascript-callbacks/">esse artigo do @jcemer no Tableless.</Link>
-    </Blockquote>
+    </p>
 
     <p>
       Uma forma de quebrar a execução, é tentar acessar a

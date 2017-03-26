@@ -35,6 +35,7 @@ export default ({ children }) => (
       div {
         max-width: 720px;
         margin: auto;
+        margin-bottom: 4em;
         padding-left: 1em;
         padding-right: 1em;
         overflow: hidden;
