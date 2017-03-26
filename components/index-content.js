@@ -3,6 +3,7 @@ import Hr from './hr'
 import IndexContentLink from './index-content-link'
 import Occurrence from './occurrence'
 import Heading from './heading'
+import P from './paragraph'
 
 const IndexContent = ({ content }) => (
   <li>
@@ -18,7 +19,7 @@ const IndexContent = ({ content }) => (
       </IndexContentLink>
     </Heading>
 
-    <p>{content.description}</p>
+    <P>{content.description}</P>
 
     <Hr />
 

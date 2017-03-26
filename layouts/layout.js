@@ -26,7 +26,6 @@ export default ({ children }) => (
         background-color: ${colors.white};
         color: ${colors.adjacent};
         font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
         line-height: 1.8em;
       }
     `}</style>
