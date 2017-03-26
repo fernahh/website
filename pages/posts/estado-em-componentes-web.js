@@ -75,7 +75,7 @@ export default () => (
       entrada, teremos sempre a mesma saída.
     </p>
 
-      <Snippet language="javascript">{`  // estado.
+    <Snippet language="javascript">{`  // estado.
   const position = 1;
 
   // função pura: ao invés de ter
@@ -156,7 +156,7 @@ export default () => (
     <p>
       É recomendado que quando você for escrever um componente usando uma diretiva, sempre deixe o escopo dela isolado através de um objeto literal:</p>
 
-      <Snippet language="javascript">{`  angular
+    <Snippet language="javascript">{`  angular
     .module('alert', [])
     .directive('uiAlert', function() {
       return {
