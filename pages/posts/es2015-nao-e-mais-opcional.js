@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Article from '../../layouts/article'
 import Link from '../../components/link'
+import P from '../../components/paragraph'
 import { Code } from '../../components/highlight'
 
 export default () => (
