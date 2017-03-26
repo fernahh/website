@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Article from '../../layouts/article'
+import CodePen from '../../components/code-pen'
 import Link from '../../components/link'
 import P from '../../components/paragraph'
 import { Snippet, Code } from '../../components/highlight'
@@ -144,8 +145,7 @@ export default () => (
       diretiva que representa um componente de alerta.
     </P>
 
-    <p data-height="265" data-theme-id="0" data-slug-hash="zNGoyM" data-default-tab="css,result" data-user="lfernahh" data-embed-version="2" data-pen-title="Alert Directive" className="codepen">See the Pen <a href="http://codepen.io/lfernahh/pen/zNGoyM/">Alert Directive</a> by Luiz Fernando Rodrigues (<a href="http://codepen.io/lfernahh">@lfernahh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    <CodePen id="zNGoyM" name="Alert Compment" tab="js" />
 
     <P>
       Essa diretiva é stateless. Porém, o controle do estado da aplicação pode
@@ -212,7 +212,7 @@ export default () => (
       desaparecer quando digitado a string <code>angular</code> no input disponível.
     </P>
 
-    <p data-height="265" data-theme-id="dark" data-slug-hash="RKPoyw" data-default-tab="js,result" data-user="lfernahh" data-embed-version="2" data-pen-title="Angular Component App" className="codepen">See the Pen <a href="http://codepen.io/lfernahh/pen/RKPoyw/">Angular Component App</a> by Luiz Fernando Rodrigues (<a href="http://codepen.io/lfernahh">@lfernahh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <CodePen id="RKPoyw" name="Alert Component" />
 
     <P>
       Perceba que quem mantém o estado é o componente mais externo, que é stateful.
@@ -236,7 +236,7 @@ export default () => (
       componente de alerta usando uma função pura e renderizá-lo através do React.
     </P>
 
-    <p data-height="265" data-theme-id="dark" data-slug-hash="VPKjKd" data-default-tab="js,result" data-user="lfernahh" data-embed-version="2" data-pen-title="React Alert Component" className="codepen">See the Pen <a href="http://codepen.io/lfernahh/pen/VPKjKd/">React Alert Component</a> by Luiz Fernando Rodrigues (<a href="http://codepen.io/lfernahh">@lfernahh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <CodePen id="VPKjKd" name="React Alert Component" tab="js" />
 
     <P>
       A diferença entre usar uma função para definir componentes ao invés de
@@ -288,7 +288,7 @@ export default () => (
       Vejamos o exemplo abaixo:
     </P>
 
-    <p data-height="265" data-theme-id="dark" data-slug-hash="mRrRzY" data-default-tab="js,result" data-user="lfernahh" data-embed-version="2" data-pen-title="React FrameworksContainer " className="codepen">See the Pen <a href="http://codepen.io/lfernahh/pen/mRrRzY/">React FrameworksContainer </a> by Luiz Fernando Rodrigues (<a href="http://codepen.io/lfernahh">@lfernahh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <CodePen id="mRrRzY" name="React FrameworksContainer" tab="js" />
 
     <P>
       Perceba que componente <Code>FrameworksContainer</Code> é quem possui o
