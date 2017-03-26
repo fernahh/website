@@ -23,5 +23,11 @@
     "title": "Como aprender web frameworks",
     "date": "26/06/2016",
     "description": "Tradução do artigo How to learn web frameworks, que fala sobre a \"pressão\" do mercado em busca de desenvolvedores júnior que sejam especialistas em web frameworks, como React, Angular e Rails."
+  }, {
+    "id": 5,
+    "slug": "a-web-criada-na-era-das-startups",
+    "title": "A web criada na era das startups",
+    "date": "20/03/2016",
+    "description": "Eu curto startups. Acredito fortemente na economia criativa para mudar o mundo. Mas nem todo projeto precisa ser uma startup."
   }
 ]
