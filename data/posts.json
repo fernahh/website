@@ -17,5 +17,11 @@
     "title": "ES2015 não é mais opcional",
     "date": "04/09/2016",
     "description": "Apesar de parecer muito tempo do release oficial do ES2015, a uso do padrão não é absoluto. Esse artigo busca mostrar os principais valores e razões para adotarmos de vez a versão oficial do JavaScript."
+  }, {
+    "id": 4,
+    "slug": "como-aprender-web-frameworks",
+    "title": "Como aprender web frameworks",
+    "date": "26/06/2016",
+    "description": "Tradução do artigo How to learn web frameworks, que fala sobre a \"pressão\" do mercado em busca de desenvolvedores júnior que sejam especialistas em web frameworks, como React, Angular e Rails."
   }
 ]
