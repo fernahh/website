@@ -39,7 +39,7 @@ export default () => (
       uma biblioteca JavaScript para criação de interfaces complexas com um
       virtual DOM e um fluxo de dados unidirecional. Isso parece resolver algo
       que você já fez? Veja os exemplos na homepage do projeto. A sua reação foi
-      <em>"uau, isso resolve o problema que eu tived"</em>? Se a resposta for
+      <em>"uau, isso resolve o problema que eu tive"</em>? Se a resposta for
       não, você vai ter dificuldade para aprender. Os exemplos são instrutivos:
       desenvolver um app de lista de tarefas no front-end parece difícil? Você
       já tentou? Tente. Tente usando uma tecnologia que você já domina. Tente
@@ -76,11 +76,11 @@ export default () => (
     </P>
 
     <P>
-      Se estiver olhando para "aprenda Railsd" ou "aprenda Angulard" como um
+      Se estiver olhando para "aprenda Rails" ou "aprenda Angular" como um
       problema, então você terá dificuldade para começar a aprender e vai ser
       difícil saber se você está progredindo. Você pode rever esse problema como
-      "aprender a desenvolver interfaces complexas e interativasd" ou "aprender
-      como desenvolver aplicações webd", em seguida, o framework passará a ser
+      "aprender a desenvolver interfaces complexas e interativas" ou "aprender
+      como desenvolver aplicações web", em seguida, o framework passará a ser
       uma ferramenta para resolver o seu problema, e aprender não será uma tarefa
       difícil, será uma descoberta.
     </P>
@@ -88,7 +88,7 @@ export default () => (
     <HR />
 
     <P>
-      <em>Esse texto é uma tradução do artigo <Link href="https://medium.com/shopify-ux/how-to-learn-web-frameworks-9d447cb71e68">"How to learn web frameworksd"</Link>,
+      <em>Esse texto é uma tradução do artigo <Link href="https://medium.com/shopify-ux/how-to-learn-web-frameworks-9d447cb71e68">"How to learn web frameworks"</Link>,
       da <Link href="https://medium.com/u/48287abd8420">Tessa Thornton</Link>.</em>
     </P>
   </Article>
