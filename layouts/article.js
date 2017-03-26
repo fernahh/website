@@ -1,7 +1,7 @@
-import Layout from './layout'
 import Container from '../components/container'
 import Occurrence from '../components/occurrence'
 import Heading from '../components/heading'
+import Layout from './layout'
 
 export default ({ title, date, children }) => (
   <Layout>
@@ -9,9 +9,7 @@ export default ({ title, date, children }) => (
       <article>
         <header>
           {
-            date ?
-            <Occurrence date={date} /> :
-            ''
+            date ? <Occurrence date={date} /> : ''
           }
           <Heading>{title}</Heading>
         </header>
