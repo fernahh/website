@@ -3,7 +3,6 @@ import Article from '../../layouts/article'
 import Blockquote from '../../components/blockquote'
 import Link from '../../components/link'
 import P from '../../components/paragraph'
-import { Snippet, Code } from '../../components/highlight'
 
 export default () => (
   <Article title="A web criada na era das startups" date="20/03/2016">
