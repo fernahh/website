@@ -11,9 +11,11 @@ export default ({ date, local, event }) => (
 
     <style jsx>{`
       h3 {
+        margin-bottom: 0;
         color: ${colors.grey};
         font-size: .75em;
         font-weight: normal;
+        text-transform: uppercase;
       }
     `}</style>
   </h3>
