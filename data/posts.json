@@ -29,5 +29,11 @@
     "title": "A web criada na era das startups",
     "date": "20/03/2016",
     "description": "Eu curto startups. Acredito fortemente na economia criativa para mudar o mundo. Mas nem todo projeto precisa ser uma startup."
+  }, {
+    "id": 6,
+    "slug": "componentes-css-como-desenvolver-pensando-em-reuso",
+    "title": "Componentes CSS: como desenvolver pensando em reuso",
+    "date": "15/02/2016",
+    "description": "Cada vez mais precisamos de aplicações dinâmicas e modularizadas. E como criar componentes encapsulados em uma linguagem onde tudo é global? Veremos aqui paradigmas e aprender como desenvolver CSS escalável em tempos de módulos JavaScript e Web Components."
   }
 ]
