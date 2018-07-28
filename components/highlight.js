@@ -1,5 +1,5 @@
 import Highlight from 'react-syntax-highlighter'
-import { tomorrow } from 'react-syntax-highlighter/dist/styles'
+import tomorrow from 'react-syntax-highlighter/styles/prism'
 
 const customStyle = {
   padding: '16px 0',
